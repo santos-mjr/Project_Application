@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IntroActivity">
+    tools:context=".IntroActivity"
+    android:background="@color/const_white">
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/slideViewPager"
@@ -14,7 +15,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="-1dp"
         android:layout_marginEnd="0dp">
     </androidx.viewpager.widget.ViewPager>
 
@@ -24,11 +24,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="165dp"
-        android:layout_marginBottom="185dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="135dp"
         android:orientation="horizontal"
-        android:padding="20dp">
-    </LinearLayout>
+        android:padding="20dp" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/nextBtn"
@@ -37,20 +36,22 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="1dp"
-        android:layout_marginBottom="205dp"
+        android:layout_marginBottom="155dp"
+        android:fontFamily="@font/roboto_bold"
         android:background="@android:color/transparent"
         android:text="Next"
-        android:textColor="#616161" />
+        android:textColor="@color/splash_back" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/backBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="205dp"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_marginBottom="155dp"
         android:background="@android:color/transparent"
         android:text="Back"
-        android:textColor="#616161"
+        android:textColor="@color/splash_back"
         android:visibility="invisible" />
 
     <com.google.android.material.button.MaterialButton
@@ -59,13 +60,14 @@
         android:layout_height="55dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="760dp"
+        android:layout_marginTop="650dp"
         android:layout_marginEnd="50dp"
-        android:backgroundTint="@color/green"
+        android:backgroundTint="@color/btn_green"
+        android:fontFamily="@font/roboto_bold"
         android:text="GET STARTED"
+        android:textColor="@color/white"
         android:textSize="14sp"
         android:textStyle="bold"
-        android:textColor="@color/white"
         app:shapeAppearance="@style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day" />
 
 </RelativeLayout>

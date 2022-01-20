@@ -3,6 +3,7 @@ package com.example.project_application;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
@@ -18,7 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class ForgotPassword extends AppCompatActivity {
 
     private EditText emailEditText;
-    private Button resetPasswordButton;
+    private Button resetPasswordButton, backBtn;
     private ProgressBar progressBar;
 
     FirebaseAuth mAuth;
@@ -30,9 +31,17 @@ public class ForgotPassword extends AppCompatActivity {
 
         emailEditText = (EditText) findViewById(R.id.email);
         resetPasswordButton = (Button) findViewById(R.id.resetPassword);
+        backBtn = (Button) findViewById(R.id.backBtn);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
 
         mAuth = FirebaseAuth.getInstance();
+
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ForgotPassword.this, Login.class));
+            }
+        });
 
         resetPasswordButton.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -102,11 +102,12 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
                 if(task.isSuccessful()){
 
                     FirebaseUser user  = FirebaseAuth.getInstance().getCurrentUser();
-
                     if(user.isEmailVerified()){
                         //redirect to user profile
-                        startActivity(new Intent(Login.this, ProfileActivity.class));
+                        startActivity(new Intent(Login.this, Home.class));
+                        finish();
                     }else{
+                        //send email verification to user email
                         user.sendEmailVerification();
                         Toast.makeText(Login.this, "Check your email to verify your account!", Toast.LENGTH_LONG).show();
                         progressBar.setVisibility(View.GONE);
@@ -119,5 +120,9 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
             }
         });
 
+    }
+
+    @Override
+    public void onBackPressed() {
     }
 }

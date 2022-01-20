@@ -4,32 +4,44 @@
     <color name="colorPrimaryDark">#ffffff</color>
     <color name="colorAccent">#ffffff</color>
 
-    <!-- Colors for button styles -->
+    <!-- Background consistent white colour -->
+    <color name="const_white">#F9FAFE</color>
 
-    <color name="gradient_start_color">#4c84ff</color>
-    <color name="gradient_end_color">#18a3fe</color>
+    <!-- Colors for button styles -->
+    <color name="btn_green">#61D76C</color>
 
     <!-- Colors for tab and screen text -->
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+    <color name="text_gray">#757583</color>
+
+    <color name="purple_1">#131C42</color>
+    <color name="magenta_1">#8B9BDE</color>
+    <color name="blue_gray">#455A64</color>
+
+    <!-- Toolbar colors -->
+    <color name="tb_color">#37474F</color>
+
+    <!-- Misc Colors -->
     <color name="tab_indicator_gray">#c0c0c0</color>
     <color name="intro_title_color">#000000</color>
     <color name="intro_description_color">#656565</color>
-    <color name="colorTransparentWhite">#cccccc</color>
-
+    <color name="light_gray">#cccccc</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="green">#00C853</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
     <!-- SPLASH SCREEN COLORS-->
-    <color name="blue_gray">#455A64</color>
+    <color name="splash_back">#36406B</color>
 
     <!-- Dots indicator -->
     <color name="blue_gray_2">#546E7A</color>
     <color name="blue_gray_1">#CFD8DC</color>
 
+    <color name="testcol">#EEEEEE</color>
 
 </resources>

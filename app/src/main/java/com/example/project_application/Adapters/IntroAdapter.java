@@ -1,4 +1,4 @@
-package com.example.project_application;
+package com.example.project_application.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -14,6 +14,8 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.PagerAdapter;
 
+import com.example.project_application.R;
+
 public class IntroAdapter extends PagerAdapter {
 
     Context context;
@@ -25,21 +27,21 @@ public class IntroAdapter extends PagerAdapter {
 
     //Arrays
     public int[] slide_images = {
-            R.drawable.ic_baseline_arrow_forward_24,
-            R.drawable.ic_launcher_background,
-            R.drawable.ic_launcher_foreground
+            R.drawable.slide_img_one,
+            R.drawable.slide_img_two,
+            R.drawable.slide_img_three
     };
 
     public String [] slide_headings = {
-            "TEST",
-            "TEST2",
-            "TEST3"
+            "Learn a new programming language",
+            "Connect with the community, Ask questions",
+            "Start learning on the go!"
     };
 
     public String[] slide_desc = {
-            "From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage.",
-            "From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage.",
-            "From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage."
+            "Steer your learning to a new level, start small and learn a new language from scratch",
+            "Got a Question? Ask among your peers",
+            "Create an Account now to get started"
     };
 
     @Override

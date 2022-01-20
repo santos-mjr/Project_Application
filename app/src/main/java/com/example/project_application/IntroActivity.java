@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
+import com.example.project_application.Adapters.IntroAdapter;
 
 public class IntroActivity extends AppCompatActivity {
 
@@ -66,6 +66,7 @@ public class IntroActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(IntroActivity.this, Login.class));
+                finish();
             }
         });
 
@@ -119,7 +120,7 @@ public class IntroActivity extends AppCompatActivity {
                 backBtn.setEnabled(true);
                 backBtn.setVisibility(View.VISIBLE);
 
-                nextBtn.setText("Finish");
+                nextBtn.setText("");
                 backBtn.setText("Back");
             }else{
                 //Not first or last page
