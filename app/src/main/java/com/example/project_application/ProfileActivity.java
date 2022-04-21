@@ -48,7 +48,7 @@ public class ProfileActivity extends AppCompatActivity {
                 startActivity(new Intent(ProfileActivity.this, Login.class));
                 finish();
             }
-        });
+        });//onclick listener
 
         user = FirebaseAuth.getInstance().getCurrentUser();
         reference = FirebaseDatabase.getInstance().getReference("Users");
@@ -75,7 +75,7 @@ public class ProfileActivity extends AppCompatActivity {
             public void onCancelled(@NonNull DatabaseError error) {
                 Toast.makeText(ProfileActivity.this, "Something wrong happened!", Toast.LENGTH_SHORT).show();
             }
-        });
+        });//database error exception
 
         //Navigation bar
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_nav);
@@ -110,7 +110,4 @@ public class ProfileActivity extends AppCompatActivity {
         });
     }
 
-    @Override
-    public void onBackPressed() {
-    }
 }

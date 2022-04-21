@@ -20,7 +20,7 @@ public class CommunityPlatform extends AppCompatActivity {
         //Navigation bar
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_nav);
 
-        bottomNavigationView.setSelectedItemId(R.id.profile);
+        bottomNavigationView.setSelectedItemId(R.id.community);
 
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
