@@ -1,5 +1,167 @@
 <resources>
-    <string name="app_name">Project-Application</string>
+    <string name="app_name">CoMemo</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="why_java_title">Why Java?</string>
+    <string name="why_java">Java is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain. I will list down some of the key advantages of learning Java Programming:
+
+\nObject Oriented − In Java, everything is an Object. Java can be easily extended since it is based on the Object model.
+
+\nPlatform Independent − Unlike many other programming languages including C and C++, when Java is compiled, it is not compiled into platform specific machine, rather into platform independent byte code. This byte code is distributed over the web and interpreted by the Virtual Machine (JVM) on whichever platform it is being run on.
+
+\nSimple − Java is designed to be easy to learn. If you understand the basic concept of OOP Java, it would be easy to master.
+    </string>
+
+    <string name="java_syntax_title">Java Syntax</string>
+    <string name="java_syntax"> Every line of code that runs in Java must be inside a class. A class should always start with an uppercase first letter.
+    \nNote: Java is case-sensitive: MyClass and myclass has different meaning.
+     \nThe main Method
+\nThe main() method is required and you will see it in every Java program:
+
+\npublic static void main(String[] args)
+\nAny code inside the main() method will be executed.
+ \nRemember that every Java program has a class name which must match the filename, and that every program must contain the main() method.
+   \nSystem.out.println()
+\nInside the main() method, we can use the println() method to print a line of text to the screen:
+
+\npublic static void main(String[] args) {
+  \nSystem.out.println(\"Hello World\");
+        \n}
+    </string>
+  <string name="java_variables_title">Java Variables</string>
+  <string name="java_variables">
+      Variables are containers for storing data values.
+
+\nIn Java, there are different types of variables, for example:
+
+\nString - stores text, such as Hello. String values are surrounded by double quotes
+\nint - stores integers (whole numbers), without decimals, such as 123 or -123
+\nfloat - stores floating point numbers, with decimals, such as 19.99 or -19.99
+\nchar - stores single characters, such as a or B. Char values are surrounded by single quotes
+\nboolean - stores values with two states: true or false
+ \nDeclaring (Creating) Variables
+\nTo create a variable, you must specify the type and assign it a value:
+
+\nSyntax
+\ntype variableName = value;
+\nWhere type is one of Java\'s types (such as int or String), and variableName is the name of the variable (such as x or name). The equal sign is used to assign values to the variable.
+
+\nTo create a variable that should store text, look at the following example:
+
+\nExample
+\nCreate a variable called name of type String and assign it the value \"John\":
+
+\nString name = \"John\";
+\nSystem.out.println(name);
+  </string>
+    <string name="java_Data_title">Java Data Types</string>
+    <string name="java_Data_type">
+      a variable in Java must be a specified data type:
+
+\nExample
+\nint myNum = 5;               // Integer (whole number)
+\nfloat myFloatNum = 5.99f;    // Floating point number
+\nchar myLetter = \'D\';         // Character
+\nboolean myBool = true;       // Boolean
+\nString myText = "Hello";     // String
+ \nData types are divided into two groups:
+
+\nPrimitive data types - includes byte, short, int, long, float, double, boolean and char
+\nNon-primitive data types - such as String, Arrays and Classes (you will learn more about these in a later chapter)
+
+    </string>
+    <string name="java_if_title">Java IF and else</string>
+    <string name="java_if">
+        Java Conditions and If Statements
+\nnJava has the following conditional statements:
+
+\nnUse if to specify a block of code to be executed, if a specified condition is true
+\nUse else to specify a block of code to be executed, if the same condition is false
+\nUse else if to specify a new condition to test, if the first condition is false
+\nUse switch to specify many alternative blocks of code to be executed
+\nThe if Statement
+\nUse the if statement to specify a block of Java code to be executed if a condition is true.
+
+\nSyntax
+\nif (condition) {
+  \n// block of code to be executed if the condition is true
+\n}
+\nIn the example below, we test two values to find out if 20 is greater than 18. If the condition is true, print some text:
+
+\nExample
+\nif (20 > 18) {
+  \nSystem.out.println(\"20 is greater than 18\");
+\n}
+    </string>
+    <string name="java_loop_title">Java Loops</string>
+    <string name="java_loop" translatable="false">
+ \nLoops can execute a block of code as long as a specified condition is reached.
+
+\nLoops are handy because they save time, reduce errors, and they make code more readable.
+
+\nJava While Loop
+\nThe while loop loops through a block of code as long as a specified condition is true:
+
+\nSyntax
+\nwhile (condition) {
+ \n// code block to be executed
+\n}
+\nIn the example below, the code in the loop will run, over and over again, as long as a variable (i) is greater than 5:
+
+\nExample
+\nint i = 10;
+\nwhile (i > 5) {
+  \nSystem.out.println(i);
+  \ni--;
+\n}
+ \nJava For Loop
+\nWhen you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:
+
+\nSyntax
+\nfor (statement 1; statement 2; statement 3) {
+  \n// code block to be executed
+}
+\nStatement 1 is executed (one time) before the execution of the code block.
+
+\nStatement 2 defines the condition for executing the code block.
+
+\nStatement 3 is executed (every time) after the code block has been executed.
+
+\nThe example below will print the numbers 10 to 6:
+
+\nExample
+\nfor (int i = 10; i > 5; i--) {
+  \nSystem.out.println(i);
+        \n}
+    </string>
+  <string name="java_arrays_title">Java Arrays</string>
+  <string name="java_arrays">
+      Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+
+\nTo declare an array, define the variable type with square brackets:
+
+\nString[] cars;
+\nWe have now declared a variable that holds an array of strings. To insert values to it, we can use an array literal - place the values in a comma-separated list, inside curly braces:
+
+\nString[] cars = {\"Volvo\", \"BMW\", \"Ford\", \"Mazda\"};
+\nTo create an array of integers, you could write:
+
+\nint[] myNum = {10, 20, 30, 40};
+\nAccess the Elements of an Array
+\nYou access an array element by referring to the index number.
+
+\nThis statement accesses the value of the first element in cars:
+
+\nExample
+\nString[] cars = {\"Volvo\", \"BMW\", \"Ford\", \"Mazda\"};
+\nSystem.out.println(cars[0]);
+\n// Outputs Volvo
+\nArray Length
+\nTo find out how many elements an array has, use the length property:
+
+\nExample
+\nString[] cars = {\"Volvo\", \"BMW\", \"Ford\", \"Mazda\"};
+\nSystem.out.println(cars.length);
+\n// Outputs 4
+  </string>
 </resources>

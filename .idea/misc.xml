@@ -3,6 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/drawable/correct_background.xml" value="0.111" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/drawable/first_layer.xml" value="0.1275" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.167" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/drawable/ic_next.xml" value="0.183" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/drawable/ic_profile.xml" value="0.167" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/drawable/learning_cards.xml" value="0.181" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/drawable/levels_background.xml" value="0.1335" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/drawable/levels_background_selected.xml" value="0.1335" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/drawable/nav_ic_community.xml" value="0.167" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/drawable/options_background.xml" value="0.183" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/drawable/profile_background.xml" value="0.189" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/drawable/second_layer.xml" value="0.1275" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/drawable/wrong_background.xml" value="0.111" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/layout/activity_home.xml" value="0.13043478260869565" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/layout/activity_intro.xml" value="0.16304347826086957" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/layout/completing_dialog.xml" value="0.10280797101449275" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/layout/fragment_learning.xml" value="0.25" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/layout/fragment_quiz.xml" value="0.25" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/layout/fragment_web.xml" value="0.16304347826086957" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/layout/loading_dialog.xml" value="0.1" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/layout/profile_layout.xml" value="0.1634963768115942" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/layout/slide_layout.xml" value="0.13043478260869565" />
+        <entry key="..\:/MyApps/Project_Application/app/src/main/res/menu/menu_navigation.xml" value="0.1" />
         <entry key="..\:/Users/mjays/AndroidStudioProjects/ProjectApplication2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.553125" />
         <entry key="..\:/Users/mjays/AndroidStudioProjects/ProjectApplication2/app/src/main/res/drawable/baseline_home_black_24dp.xml" value="0.3375" />
         <entry key="..\:/Users/mjays/AndroidStudioProjects/ProjectApplication2/app/src/main/res/drawable/d_challenge_icon.xml" value="0.3375" />
@@ -34,6 +60,14 @@
         <entry key="..\:/Users/mjays/AndroidStudioProjects/ProjectApplication2/app/src/main/res/menu/menu_navigation.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/mjays/AndroidStudioProjects/ProjectApplication2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3375" />
         <entry key="..\:/Users/mjays/AndroidStudioProjects/ProjectApplication2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3375" />
+        <entry key="..\:/Users/mjays/AndroidStudioProjects/Project_Application(Final)/app/src/main/res/drawable/levels_background_selected.xml" value="0.279" />
+        <entry key="..\:/Users/mjays/AndroidStudioProjects/Project_Application(Final)/app/src/main/res/layout/activity_home.xml" value="0.2634245187436677" />
+        <entry key="..\:/Users/mjays/AndroidStudioProjects/Project_Application(Final)/app/src/main/res/layout/activity_intro.xml" value="0.4361413043478261" />
+        <entry key="..\:/Users/mjays/AndroidStudioProjects/Project_Application(Final)/app/src/main/res/layout/activity_splash_screen.xml" value="0.11296296296296296" />
+        <entry key="..\:/Users/mjays/AndroidStudioProjects/Project_Application(Final)/app/src/main/res/layout/completing_dialog.xml" value="0.25886524822695034" />
+        <entry key="..\:/Users/mjays/AndroidStudioProjects/Project_Application(Final)/app/src/main/res/layout/fragment_home.xml" value="0.2634245187436677" />
+        <entry key="..\:/Users/mjays/AndroidStudioProjects/Project_Application(Final)/app/src/main/res/layout/fragment_quiz.xml" value="0.2634245187436677" />
+        <entry key="..\:/Users/mjays/AndroidStudioProjects/Project_Application(Final)/app/src/main/res/layout/loading_dialog.xml" value="0.25886524822695034" />
       </map>
     </option>
   </component>
